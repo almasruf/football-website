@@ -1,3 +1,122 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/*---------------
+ section one ---------- */
+.top-part{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+.banner img{
+    width: 556.01px;
+    height: 438px;
+    border: 0px solid green;
+
+  
+}
+.banner{
+    margin-right: 140.99px;
+    margin-top: 153px;
+
+}
+.paragraoh p{
+
+    width: 485px;
+    height: 230px;
+    border: 0px solid green;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: white;
+   
+}
+.ancor-button{
+    color: white;
+text-decoration:none;
+background-color: indianred;
+padding: 10px 24px;
+border-radius: 20px;
+font-weight: 400;
+
+
+}
+.paragraoh{
+    margin-top: 207px;
+    margin-left: 156px;
+}
+
+   /* ---------------------section-two-----------  */
+   .players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   justify-content: center;
+    align-items: center;
+    padding: 70px;
+    grid-row-gap: 18px;
+   
+   }
+    .player-1{
+        width: 330px;
+        height: 474px;
+        border: 5px solid rgba(218, 212, 212, 0.945);
+        background: #FFFFFF;
+         box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+         border-radius: 10px;
+         
+    }
+.player-picture img{
+    width: 300px;
+    height: 256px;
+    padding: 15px 15px 10px;
+    border-radius: 20px;
+
+}
+.player-detiles h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    padding-left: 15px;
+
+}
+.player-detiles span{
+     font-size: 13px;
+     line-height: 26px;
+    align-items: center;
+    justify-content: center;
+    /* padding-left: 15px; */
+    margin-left: 15px;
+    
+
+}
+/*------------------ section-three ------------- */
+.logo img{
+    weight:100%;
+    height: 500px;
+}
+.logo h2{
+    color: blueviolet;
+    padding-left: 50px;
+}
+
+
+/*------------------------ footer ---------------------- */
+
+.img-logo img{
+    width: 350px;
+    height: 80px;
+    padding-left: 350px;
+}
+
+.icon{
+    padding-left: 550px;
+}
+.copy-right{
+    padding-left: 500px;
+}
